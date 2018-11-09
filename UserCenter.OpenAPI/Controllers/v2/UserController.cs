@@ -12,7 +12,6 @@ namespace UserCenter.OpenAPI.Controllers.v2
     /// <summary>
     /// WebApi 版本 v2
     /// </summary>
-    [AllowAnonymous]
     public class UserController : ApiController
     {
         public IUserService UserService { get; set; }

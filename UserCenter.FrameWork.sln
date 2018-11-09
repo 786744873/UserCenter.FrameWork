@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserCenter.Common", "UserCe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserCenter.OpenAPI", "UserCenter.OpenAPI\UserCenter.OpenAPI.csproj", "{813BD495-0FB4-41A6-977C-1E61520D3F52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserCenter.NETSDK", "UserCenter.NETSDK\UserCenter.NETSDK.csproj", "{689BB978-10E1-4DDC-9A95-642C62519A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserCenter.NETSDK.Test", "UserCenter.NETSDK.Test\UserCenter.NETSDK.Test.csproj", "{132270CD-ABB9-49C7-A0AC-D88A4D6F80E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{813BD495-0FB4-41A6-977C-1E61520D3F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{813BD495-0FB4-41A6-977C-1E61520D3F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{813BD495-0FB4-41A6-977C-1E61520D3F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689BB978-10E1-4DDC-9A95-642C62519A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689BB978-10E1-4DDC-9A95-642C62519A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689BB978-10E1-4DDC-9A95-642C62519A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689BB978-10E1-4DDC-9A95-642C62519A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132270CD-ABB9-49C7-A0AC-D88A4D6F80E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132270CD-ABB9-49C7-A0AC-D88A4D6F80E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132270CD-ABB9-49C7-A0AC-D88A4D6F80E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132270CD-ABB9-49C7-A0AC-D88A4D6F80E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

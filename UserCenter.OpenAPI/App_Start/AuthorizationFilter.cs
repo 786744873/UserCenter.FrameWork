@@ -126,7 +126,7 @@ namespace UserCenter.OpenAPI.App_Start
                   .ToArray();
 
             string sign2 = MD5Helper.ToMD5(string.Join("&", paramArr) + appInfo.AppSecret);
-            if (sign != sign2)
+            if (!sign.Equals(sign2,StringComparison.InvariantCultureIgnoreCase))
             {
                 return Content(HttpStatusCode.Unauthorized, "签名错误");
             }
